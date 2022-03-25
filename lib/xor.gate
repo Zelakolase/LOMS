@@ -1,0 +1,6 @@
+import or.gate as or
+put or($0,$1) in x
+if $0=$1=1
+put 0 in x
+nul
+return x
