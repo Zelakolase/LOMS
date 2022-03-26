@@ -1,4 +1,3 @@
 import and.gate as and
-put and($0,$1) in x
-put not(x) in x
+put not(and($0,$1)) in x
 return x

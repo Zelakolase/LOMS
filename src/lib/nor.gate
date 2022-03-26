@@ -1,4 +1,3 @@
 import or.gate as or
-put or($0,$1) in x
-put not(x) in x
+put not(or($0,$1)) in x
 return x

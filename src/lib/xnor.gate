@@ -1,4 +1,3 @@
 import xor.gate as xor
-put xor($0,$1) in x
-put not(x) in x
+put not(xor($0,$1)) in x
 return x
