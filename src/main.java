@@ -149,7 +149,7 @@ public class main {
 		if(in.startsWith("$")) out = INPUTS.get(Integer.parseInt(in.replaceFirst("\\$", ""))) ? "1" : "0";
 		else if(in.contains("(") && in.contains(")")) {
 			String func_name = in.substring(0,in.indexOf("("));
-			String input = in.substring(in.indexOf("(")+1, in.indexOf(")"));
+			String input = in.substring(in.indexOf("(")+1, in.lastIndexOf(")"));
 			if(func_name.equals("not")) out = value_fetcher(input, INPUTS, VAR_TABLE, libs).equals("1")? "0" : "1";
 			else if(libs.containsKey(func_name)) {
 				if(input.contains(",")) {
