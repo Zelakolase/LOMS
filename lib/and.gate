@@ -1,5 +1,0 @@
-put 0 in x
-if $0=$1
-put 1 in x
-nul
-return x

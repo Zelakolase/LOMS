@@ -1,0 +1,15 @@
+comment $0 is a , $1 is b , $2 is Carry-in
+import  lib/xor.gate as xor
+import  lib/or.gate as or
+import  lib/and.gate as and
+put xor($0,$1) in a
+put and($0,$1) in b
+put xor(a,$2) in sum
+prints Sum : 
+print sum
+printl
+put and($2,a) in c
+put or(c,b) in cout
+prints Carry-out :
+print cout
+printl
