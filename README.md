@@ -2,8 +2,8 @@
 (LO)gical (M)icro(S)imulator
 
 ## test commands
-`$ java main -i full-adder.ins -d 1,1,0` Sum: 0 , Carry: 1
-`$ java main -i xortest.ins -d 1,1` output: 0
+`$ java main -i full-adder.ins -d 1,1,0` Sum: 0 , Carry: 1<br>
+`$ java main -i xortest.ins -d 1,1` output: 0<br>
 **NOTE : you can replace `java main` with `./main`**
 
 ## Arguments
